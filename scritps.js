@@ -15,19 +15,19 @@
 
             switch (i) {
                 case 0:
-                    ini = "sons/Normal/";
+                    ini = "audios/Normal/";
                     break;
                 case 1:
-                    ini = "sons/Orgão/";
+                    ini = "audios/Orgão/";
                     break;
                 case 2:
-                    ini = "sons/Teclado/";
+                    ini = "audios/Teclado/";
                     break;
                 case 3:
-                    ini = "sons/Xilofone/";
+                    ini = "audios/Xilofone/";
                     break;
                 case 4:
-                    ini = "sons/Teclado Suave/";
+                    ini = "audios/Teclado Suave/";
                 
             }
 
