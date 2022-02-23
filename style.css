@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #084177, #687466, #cd8b7b);
+    background-size: 100vw 100vh;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+#container {
+    float: left;
+    height: 0px;
+}
+
+#piano {
+    height: 280px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 15px;
+}
+
+.tecla {
+    width: 50px;
+    height: 280px;
+    position: relative;
+    float: left;
+    
+}
+
+.teclaBranca {
+    background-color: white;
+    width: 50px;
+    height: 280px;
+    border: none;
+    border: 1px solid gray;
+}
+
+.teclaPreta {
+    background-color: black;
+    width: 40px;
+    height: 140px;
+    border: none;
+    position: absolute;
+    left: 50%;
+    z-index: 2;
+    margin-top: 1px;
+}
+
+.teclaBranca p {
+    margin-top: 200px;
+    font-size: 1.2em;
+}
+
+.teclaPreta p {
+    color: white;
+    font-size: 1.2em;
+    margin-top: 100px;
+}
+
+.teclaBranca:hover {
+    background-color: rgba(211, 211, 211, .5);
+}
+
+.teclaPreta:hover {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+#infos {
+color: white;
+letter-spacing: 1px;
+font-size: 14px;    
+}
+
+#infos p {
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+#selecao {
+    border-radius: 3px;
+    float: right;
+    margin-left: 20px;
+    margin-top: 15px;
+    
+}

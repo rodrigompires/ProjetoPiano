@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Rodrigo Moraes Pires">
+    <meta name="description" content="Contrução de um piano musical com JavaScript">
+    <meta name="keywords" content="html5, css, javascript,tecnologia">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto Piano</title>
+</head>
+
+<body>
+
+    <div id="container">
+
+        <select id="selecao">
+            <option>Piano</option>
+            <option>Orgão</option>
+            <option>Teclado</option>
+            <option>Xilofone</option>
+            <option>Teclado Suave</option>
+        </select>
+
+        <div id="piano">
+            <div class="tecla">
+                <button class="tc teclaBranca" id="C">
+                    <p>C</p>
+                </button>
+                <button class="tc teclaPreta" id="Csus">
+                    <p>C#</p>
+                </button>
+            </div>
+
+            <div class="tecla">
+                <button class="tc teclaBranca" id="D">
+                    <p>D</p>
+                </button>
+                <button class="tc teclaPreta" id="Dsus">
+                    <p>D#</p>
+                </button>
+            </div>
+
+            <div class="tecla">
+                <button class="tc teclaBranca" id="E">
+                    <p>E</p>
+                </button>
+            </div>
+
+            <div class="tecla">
+                <button class="tc teclaBranca" id="F">
+                    <p>F</p>
+                </button>
+                <button class="tc teclaPreta" id="Fsus">
+                    <p>F#</p>
+                </button>
+            </div>
+
+            <div class="tecla">
+                <button class="tc teclaBranca" id="G">
+                    <p>G</p>
+                </button>
+                <button class="tc teclaPreta" id="Gsus">
+                    <p>G#</p>
+                </button>
+            </div>
+
+            <div class="tecla">
+                <button class="tc teclaBranca" id="A">
+                    <p>A</p>
+                </button>
+                <button class="tc teclaPreta" id="Asus">
+                    <p>A#</p>
+                </button>
+            </div>
+
+            <div class="tecla">
+                <button class="tc teclaBranca" id="B">
+                    <p>B</p>
+                </button>
+            </div>
+
+            <div class="tecla">
+                <button class="tc teclaBranca" id="C2">
+                    <p>C2</p>
+                </button>
+                <button class="tc teclaPreta" id="C2sus">
+                    <p>C2#</p>
+                </button>
+            </div>
+
+            <div class="tecla">
+                <button class="tc teclaBranca" id="D2">
+                    <p>D2</p>
+                </button>
+                <button class="tc teclaPreta" id="D2sus">
+                    <p>D2#</p>
+                </button>
+            </div>
+
+            <div class="tecla">
+                <button class="tc teclaBranca" id="E2">
+                    <p>E2</p>
+                </button>
+            </div>
+        </div>
+
+        <div id="infos">
+            <h3>Você tambem pode utilizar o teclado para tocar o piano, alem do mouse!</h2>
+                <p>
+                    q = C
+                    <br>
+                    w = C#
+                    <br>
+                    e = D
+                    <br>
+                    r = D#
+                    <br>
+                    t = E
+                    <br>
+                    y = F
+                    <br>
+                    u = F#
+                    <br>
+                    i = G
+                    <br>
+                    o = G#
+                    <br>
+                    p = A
+                    <br>
+                    a = A#
+                    <br>
+                    s = B
+                    <br>
+                    d = C2
+                    <br>
+                    f = C2#
+                    <br>
+                    g = D2
+                    <br>
+                    h = D2#
+                    <br>
+                    j = E2
+                </p>
+        </div>
+
+    </div>
+    <audio src="sons/C.mp3" id="sons"></audio>
+    <script src="scritps.js"></script>
+
+</body>
+
+</html>
